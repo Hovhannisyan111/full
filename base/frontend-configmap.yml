@@ -5,4 +5,4 @@ metadata:
   labels:
     app: frontend
 data:
-  REACT_APP_BASE_URL: "https://backend:7000"
+  REACT_APP_BASE_URL: "/api"
