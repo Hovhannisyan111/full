@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: frontend-config
-  namespace: devops-app
-data:
-  REACT_APP_BASE_URL: http://app.com/api
