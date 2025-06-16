@@ -9,13 +9,6 @@ spec:
     - host: app.com
       http:
         paths:
-          - path: /api(/|$)(.*)
-            pathType: Prefix
-            backend:
-              service:
-                name: backend
-                port:
-                  number: 7000
           - path: /
             pathType: Prefix
             backend:
@@ -23,3 +16,11 @@ spec:
                 name: frontend
                 port:
                   number: 80
+          - path: /api(/|$)(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: backend
+                port:
+                  number: 7000
+
