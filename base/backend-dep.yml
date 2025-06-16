@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: edo1997/edo/backend_app
+          image: edo1997edo/backend_app
           ports:
             - containerPort: 7000
           envFrom:

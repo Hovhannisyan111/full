@@ -7,10 +7,10 @@ spec:
   source:
     repoURL: git@github.com:Hovhannisyan111/full.git
     targetRevision: HEAD
-    path: k8s/base
+    path: base
   destination:
     server: https://kubernetes.default.svc
-    namespace: default
+    namespace: argocd
   syncPolicy:
     automated:
       prune: true
