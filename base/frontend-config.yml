@@ -6,6 +6,5 @@ metadata:
 data:
   env.js: |
     window._env_ = {
-      REACT_APP_BASE_URL: "http://app.com/api"
+      REACT_APP_BASE_URL: "http://app.com/api/"
     };
-
